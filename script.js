@@ -11,7 +11,7 @@ registerForm.addEventListener('submit', async (event) => {
 
     // Enviar los datos al servidor
     try {
-        const response = await fetch('https://mi-backend-83cc.onrender.com', {
+        const response = await fetch('https://mi-backend-83cc.onrender.com/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
